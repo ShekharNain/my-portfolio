@@ -1,0 +1,40 @@
+{
+  "name": "shekhar-nain-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "My space",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShekharNain/my-portfolio.git"
+  },
+  "author": "Shekhar Nain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShekharNain/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/ShekharNain/my-portfolio#readme",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "format": "prettier --write \"src/**/*.ts*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.79",
+    "gatsby-plugin-typescript": "^2.0.3",
+    "gatsby-plugin-typography": "^2.2.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/typography": "^0.16.1",
+    "prettier": "^1.15.3"
+  }
+}
